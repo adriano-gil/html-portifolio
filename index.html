@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adriano Gil | Meu Portfolio</title>
+  <meta name="description" content="Portfólio do desenvolvedor full-stack Adriano Gil para compartilhar projetos e habilidades desenvolvidas.">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item">
+          <a class="menu__link active" href="#home">
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projetos">
+            <span class="menu__text">Projetos</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#sobre">
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contato">
+            <span class="menu__text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__brand">
+      <a href="#home">
+        <img class="brand__logo" src="assets/images/logo.png" alt="Logo AGil">
+      </a>
+    </div>
+    <div class="header__toggle">
+      <i id="toggleTheme" class="bi bi-sun"></i>
+    </div>
+  </header>
+  <nav class="nav--mobile">
+    <ul class="menu menu--mobile">
+      <li class="menu__item">
+        <a class="menu__link active" href="#home">
+          <i class="menu__icon bi bi-house-door"></i>
+          <span class="menu__text">Home</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#projetos">
+          <i class="menu__icon bi bi-window-stack"></i>
+          <span class="menu__text">Projetos</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#sobre">
+          <i class="menu__icon bi bi-person"></i>
+          <span class="menu__text">Sobre</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#contato">
+          <i class="menu__icon bi bi-envelope"></i>
+          <span class="menu__text">Contato</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="home">
+    <div class="main__content1">
+      <h1><b>Soluções Criativas & </b> Desenvolvimento Full-Stack</h1>
+      <p>Adriano Gil, Baixada Santista - SP, Desenvolvedor Full-Stack.</p> 
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu__link"
+          href="https://github.com/adriano-gil" 
+          target="_blank"
+          >
+              <i class="menu__icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link"
+          href="https://www.linkedin.com/in/adrianoagiljr/" 
+          target="_blank"
+          >
+            <i class="menu__icon bi bi-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+      <a href="#projetos">
+        <button class="btn btn--primary">
+          <span>Ver Projetos</span>
+          <i class="bi bi-arrow-down-right"></i>
+        </button>  
+      </a>
+    </div>
+
+  </main>
+
+  <section class="technologies">
+    <h2>Conhecimento nas principais tecnologias do mercado</h2>
+    <ul class="technologies__list">
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/IntelliJ.svg" alt="Logo IntelliJ">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/Java.svg" alt="Logo Java">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/DBeaver.svg" alt="Logo DBeaver">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/MySql.svg" alt="Logo MySql">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/Postman.svg" alt="Logo Postman">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/Bootstrap.svg" alt="Logo Bootstrap">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/Html5.svg" alt="Logo HTML5">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/Css3.svg" alt="Logo Css3">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/JavaScript.svg" alt="Logo JavaScript">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/Angular.svg" alt="Logo Angular">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/TypeScript.svg" alt="Logo TypeScript">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/SASS.svg" alt="Logo SASS">
+      </li>        
+    </ul>
+  </section>
+
+  <section id="projetos" class="projects">
+    <h2>Projetos</h2>
+    <div class="projects__container">
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/projects/detona-ralph-game.png" alt="Capa Josi's Box">
+        <div class="card__body">
+          <h3 class="card__title">Detona Ralph Game</h3>
+          <p class="card__description">Um jogo do Detona Ralph</p>
+          <ul class="card__list">
+            <li class="card__item">Contador de Vidas;</li>
+            <li class="card__item">Contagem Regressiva;</li>
+            <li class="card__item">Marcador de Pontuação.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Html5.svg" alt="Logo Angular">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Css3.svg" alt="Logo TypeScript">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/JavaScript.svg" alt="Logo Bootstrap">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <a href="https://adriano-gil.github.io/html-css-javascript-detona-ralph-game/" target="_blank" rel="noopener noreferrer">
+              <button class="btn btn--primary">
+                <span>Prévia</span>
+                <i class="bi bi-arrow-up-right"></i>
+              </button>  
+            </a>
+            <a href="https://github.com/adriano-gil/html-css-javascript-detona-ralph-game" target="_blank" rel="noopener noreferrer">
+              <button class="btn">
+                <span>Repositório</span>
+              </button>  
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="projects__card card--reverse">
+        <img class="card__cover" src="assets/images/projects/ps-store-project.png" alt="Capa Archstil">
+        <div class="card__body">
+          <h3 class="card__title">PSN Store Project</h3>
+          <p class="card__description">Replicando com Angular - PSN Store.</p>
+          <ul class="card__list">
+            <li class="card__item">Layout Responsivo;</li>
+            <li class="card__item">Games adicionado usando cards;</li>
+            <li class="card__item">Podendo trazer direto de um BD.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Angular.svg" alt="Logo Angular">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/TypeScript.svg" alt="Logo TypeScript">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <a href="https://github.com/adriano-gil/angular-psn-project-store" target="_blank" rel="noopener noreferrer">
+              <button class="btn">
+                <span>Repositório</span>
+              </button> 
+            </a> 
+          </div>
+        </div>
+      </div>
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/projects/memory-game-project.png" alt="Capa Games Store">
+        <div class="card__body">
+          <h3 class="card__title">Jogo da Memória</h3>
+          <p class="card__description">Jogo da memória usando emojis.</p>
+          <ul class="card__list">
+            <li class="card__item">Praticando lógica no JavaScript;</li>
+            <li class="card__item">Design responsivo;</li>
+            <li class="card__item">Com botão reset.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Html5.svg" alt="Logo Angular">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Css3.svg" alt="Logo TypeScript">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/JavaScript.svg" alt="Logo Bootstrap">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <a href="https://github.com/adriano-gil/html-css-javascript-memory-game" target="_blank" rel="noopener noreferrer">
+              <button class="btn">
+                <span>Repositório</span>
+              </button>  
+            </a>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/adriano-gil"
+      target="_blank">
+        <button class="btn btn--primary">
+          <span>Ver Todos os Projetos</span>
+          <i class="bi bi-arrow-up-right"></i>
+        </button>  
+      </a>
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img class="about__photo" src="assets/images/logo.png" alt="">
+      <div class="about__description">
+        <h2>Sobre mim</h2>
+        <p>Adriano Gil. Apaixonado por tecnologia.
+        </p>  
+        <div class="about__icons">
+          <i class="bi bi-translate"></i>
+          <span>Inglês: Avançado | Espanhol: Básico</span>
+        </div>
+        <div class="description__buttons">
+          <a href="https://www.linkedin.com/in/adrianoagiljr/" target="_blank">
+            <button class="btn btn--primary">
+              <span>Conecte-se Comigo</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button> 
+          </a>
+          <a href="">
+            <button class="btn">
+              <span>Currículo</span>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="about__content2">
+      <div class="col1">
+        <div class="row1">
+          <h3>Formação</h3>
+          <h4>Física de Radiodiagnóstico e Medicina Nuclear - Radioproteção e Controle da Qualidade</h4>
+          <span>Mai 23 - Dez 23</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>Faculdade Unyleya</span>
+          </div>
+          <div class="about__icons">
+            <i class="bi bi-mortarboard"></i>
+            <span>Pós-graduação Lato Sensu</span>
+          </div>
+        </div>
+        <div class="row1">
+          <h4>Engenharia Eletrônica</h4>
+          <span>Fev 15 - Dez 20</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>Universidade Santa Cecília</span>
+          </div>
+          <div class="about__icons">
+            <i class="bi bi-mortarboard"></i>
+            <span>Bacharel em Engenharia Eletrônica</span>
+          </div>
+        </div>
+        <div class="row1">
+          <h4>Inglês</h4>
+          <span>Jan 14 - Dez 16</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>Escola de Idiomas CNA</span>
+          </div>
+          <div class="about__icons">
+            <i class="bi bi-mortarboard"></i>
+            <span>Curso de Inglês</span>
+          </div>
+        </div>
+      </div>
+      <div class="col2">
+        <h3>Cursos</h3>
+        <div id="accordion">
+          <div class="accordion__item active">
+            <button class="accordion__header start">
+              <span>BootCamp DIO - Deal - Spring Boot e Angular (17+)</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Digital Innovation One. Set 2024. 91h.
+              </p>
+              <p>
+                <p>Versionamento de Código com Git e GitHub</p>
+                <p>Produtividade de Desenvolvimento com Spring Framework (SpringBoot)</p>
+                <p>Integração de Sistemas Java com Banco de Dados (Mysql, PostgreSQL)</p>
+                <p>Boas Práticas de Programação (JUnit tests, Solid and Clean)</p>
+                <p>Docker e Containers para aplicações JAVA</p>
+                <p>Construindo Aplicações Utilizando Angular 17+</p>
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header">
+              <span>BootCamp DIO - Ri Happy - Front-end do Zero</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Digital Innovation One. Nov 2024. 75h.
+              </p>
+              <p>
+                <p>Princípios de Desenvolvimento de Software Colaborativo</p>
+                <p>Desenvolvendo suas Primeiras Páginas com HTML e CSS</p>
+                <p>Aprendendo Lógica de Programação</p>
+                <p>Dando os seus Primeiros Passos com JavaScript</p>
+                <p>Construindo seu Primeiro Portifólio Front-end</p>
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>Curso em Vídeo</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                Curso em Vídeo - Gustavo Guanabara. Jul 2024.
+              </p>
+              <p>
+                <p>JAVA - JAVA POO - 40H</p>
+                <p>HTML5 - CSS3 - 80H</p>
+                <p>JAVASCRIPT - 40H</p>
+                <p>MYSQL - 40H</p>
+                <p>ALGORITMO - 40H</p>
+              </p>
+            </div>
+          </div>
+        </div>
+  </section>
+  
+  <section id="contato" class="contact">
+    <h2>Contate-me</h2>
+    <p>Estou disponível para serviços e novas conexões. Contate-me via 
+      e-mail e conecte-se comigo através das minhas redes sociais.
+    </p>
+    <ul class="menu menu--social">
+      <li>
+        <a class="menu__link" href="https://github.com/adriano-gil" target="_blank">
+          <i class="menu__icon bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.linkedin.com/in/adrianoagiljr/" target="_blank">
+          <i class="menu__icon bi bi-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+    </ul>
+    <a href="mailto:adrianoagiljr@gmail.com">
+      <button class="btn btn--primary">
+        <span class="email">adrianoagiljr@gmail.com</span>
+      </button>  
+    </a>
+  </section>
+
+  <footer>
+    <p>
+      © 2024. Todos os Direitos Reservados. Desenvolvido por 
+      <a href="https://github.com/adriano-gil" target="_blank">Adriano Gil</a>.
+    </p>
+  </footer>
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
